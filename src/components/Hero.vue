@@ -1,8 +1,8 @@
 <template>
   <div id="top">
     <section
-      class="relative w-full bg-top bg-cover md:bg-center md:p-30 lg:p-40 bg-fixed"
-      style="background-image:url('https://images.unsplash.com/photo-1519379169146-d4b170447caa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80')"
+      class="relative w-full bg-top bg-cover md:bg-center md:p-40 lg:p-40 bg-fixed"
+      style="background-image:url('https://images.unsplash.com/photo-1550005809-91ad75fb315f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1349&q=80')"
     >
       <div class="absolute inset-0 w-full h-full bg-gray-900 opacity-25"></div>
       <div
@@ -32,3 +32,8 @@
     </section>
   </div>
 </template>
+<style scope>
+#top {
+  height: 100vh;
+}
+</style>

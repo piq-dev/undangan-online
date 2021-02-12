@@ -11,9 +11,7 @@
         <p
           class="max-w-md mx-auto mt-3 text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl"
         >
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s;
+          Pilih desain yang tepat untuk momen pernikahanmu , kamu bisa memilih banyak desain undangan.
         </p>
       </div>
     </div>

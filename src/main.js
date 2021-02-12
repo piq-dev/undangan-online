@@ -1,7 +1,6 @@
 import Vue from "vue";
 import App from "./App.vue";
 import router from "./router";
-import "alpinejs";
 import vueSmoothScroll from "vue2-smooth-scroll";
 
 // Tailwind
