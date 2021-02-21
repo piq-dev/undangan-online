@@ -2,7 +2,6 @@
   <div class="home">
     <Hero />
     <!-- <Partnership /> -->
-    <Content />
     <whyUs />
     <Harga />
     <Faq />
@@ -12,7 +11,7 @@
 </template>
 
 <script>
-import Content from "@/components/Content.vue";
+// import Content from "@/components/Content.vue";
 import Faq from "@/components/Faq.vue";
 import Footer from "@/components/Footer.vue";
 import Logo from "@/components/Logo.vue";
@@ -24,7 +23,6 @@ import Harga from "@/components/Harga.vue";
 export default {
   name: "Home",
   components: {
-    Content,
     Faq,
     Footer,
     Logo,
