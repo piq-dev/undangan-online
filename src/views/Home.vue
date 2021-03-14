@@ -2,8 +2,9 @@
   <div class="home">
     <Hero />
     <!-- <Partnership /> -->
-    <whyUs />
-    <Harga />
+    <Content />
+    <Feature />
+    <Statistik />
     <Faq />
     <Logo />
     <Footer />>
@@ -11,14 +12,13 @@
 </template>
 
 <script>
-// import Content from "@/components/Content.vue";
+import Content from "@/components/Content.vue";
 import Faq from "@/components/Faq.vue";
 import Footer from "@/components/Footer.vue";
 import Logo from "@/components/Logo.vue";
-import whyUs from "@/components/whyUs.vue";
+import Statistik from "@/components/Statistik.vue";
 import Hero from "@/components/Hero.vue";
-import Harga from "@/components/Harga.vue";
-// import Partnership from "@/components/Partnership.vue";
+import Feature from "@/components/Feature.vue";
 
 export default {
   name: "Home",
@@ -26,10 +26,10 @@ export default {
     Faq,
     Footer,
     Logo,
-    whyUs,
+    Statistik,
     Hero,
-    Harga
-    // Partnership
+    Content,
+    Feature
   }
 };
 </script>

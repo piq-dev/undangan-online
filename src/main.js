@@ -7,7 +7,6 @@ import vueSmoothScroll from "vue2-smooth-scroll";
 import "tailwindcss/tailwind.css";
 
 Vue.use(vueSmoothScroll);
-
 Vue.config.productionTip = false;
 
 new Vue({

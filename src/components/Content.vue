@@ -1,133 +1,181 @@
 <template>
-  <section class="overflow-hidden text-gray-700 body-font" id="desain">
-    <!-- CTA Atas -->
-    <div class="py-20 bg-white">
-      <div class="px-4 mx-auto text-center max-w-7xl sm:px-6 lg:px-8">
-        <h2
-          class="text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl md:text-5xl xl:text-6xl"
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-10 mx-auto">
+      <div
+        class="flex flex-wrap w-full mb-20 flex-col items-center text-center"
+      >
+        <h1
+          class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900"
         >
-          Buat momen indahmu bersama kami
-        </h2>
-        <p
-          class="max-w-md mx-auto mt-3 text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl"
-        >
-          Pilih desain yang tepat untuk momen pernikahanmu , kamu bisa memilih
-          banyak desain undangan.
+          Pitchfork Kickstarter Taxidermy
+        </h1>
+        <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">
+          Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
+          gentrify, subway tile poke farm-to-table.
         </p>
       </div>
-    </div>
-    <!-- End Section -->
-    <div class="container px-5 py-1 mx-auto lg:px-32">
-      <div class="flex flex-wrap justify-center mx-auto ">
-        <div class="w-full mt-6 lg:w-2/6 lg:pl-10 lg:py-6 lg:mt-0">
-          <img
-            alt="ecommerce"
-            class="object-cover object-center w-full h-64 rounded-lg lg:h-auto transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 focus:ring focus:outline-none"
-            src="https://images.unsplash.com/photo-1541250848049-b4f7141dca3f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
-          />
-          <div
-            class="flex flex-col items-start mx-auto mt-8 sm:flex-row sm:items-center"
-          >
-            <h1
-              class="flex-grow mb-2 text-2xl font-medium tracking-tighter text-gray-900 title-font"
+      <div class="flex flex-wrap -m-4">
+        <div class="xl:w-1/3 md:w-1/2 p-4">
+          <div class="border border-gray-200 p-6 rounded-lg">
+            <div
+              class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4"
             >
-              Desain Undangan Satu .
-            </h1>
-            <span class="inline-flex">
-              <a
-                class="inline-flex items-center justify-center w-10 h-10 text-white rounded-full transition duration-500 ease-in-out transform rounded-lg shadow-xl bg-gradient-to-r from-blue-700 hover:from-blue-600 to-blue-600 hover:to-blue-700 hover:-translate-y-1 hover:scale-110 focus:ring focus:outline-none"
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="w-6 h-6"
+                viewBox="0 0 24 24"
               >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="icon icon-tabler icon-tabler-chevron-right"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="#ffffff"
-                  fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                  <polyline points="9 6 15 12 9 18" />
-                </svg>
-              </a>
-            </span>
+                <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+              </svg>
+            </div>
+            <h2 class="text-lg text-gray-900 font-medium title-font mb-2">
+              Shooting Stars
+            </h2>
+            <p class="leading-relaxed text-base">
+              Fingerstache flexitarian street art 8-bit waist co, subway tile
+              poke farm.
+            </p>
           </div>
         </div>
-        <div class="w-full mt-6 lg:w-2/6 lg:pl-10 lg:py-6 lg:mt-0">
-          <img
-            alt="ecommerce"
-            class="object-cover object-center w-full h-64 rounded-lg lg:h-auto transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 focus:ring focus:outline-none"
-            src="https://images.unsplash.com/photo-1580151134699-e0cfbeb763d3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
-          />
-          <div
-            class="flex flex-col items-start mx-auto mt-8 sm:flex-row sm:items-center"
-          >
-            <h1
-              class="flex-grow mb-2 text-2xl font-medium tracking-tighter text-gray-900 title-font"
+        <div class="xl:w-1/3 md:w-1/2 p-4">
+          <div class="border border-gray-200 p-6 rounded-lg">
+            <div
+              class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4"
             >
-              Desain Undangan Dua .
-            </h1>
-            <span class="inline-flex">
-              <a
-                class="inline-flex items-center justify-center w-10 h-10 text-white rounded-full transition duration-500 ease-in-out transform rounded-lg shadow-xl bg-gradient-to-r from-blue-700 hover:from-blue-600 to-blue-600 hover:to-blue-700 hover:-translate-y-1 hover:scale-110 focus:ring focus:outline-none"
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="w-6 h-6"
+                viewBox="0 0 24 24"
               >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="icon icon-tabler icon-tabler-chevron-right"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="#ffffff"
-                  fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                  <polyline points="9 6 15 12 9 18" />
-                </svg>
-              </a>
-            </span>
+                <circle cx="6" cy="6" r="3"></circle>
+                <circle cx="6" cy="18" r="3"></circle>
+                <path
+                  d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"
+                ></path>
+              </svg>
+            </div>
+            <h2 class="text-lg text-gray-900 font-medium title-font mb-2">
+              The Catalyzer
+            </h2>
+            <p class="leading-relaxed text-base">
+              Fingerstache flexitarian street art 8-bit waist co, subway tile
+              poke farm.
+            </p>
           </div>
         </div>
-        <div class="w-full mt-6 lg:w-2/6 lg:pl-10 lg:py-6 lg:mt-0">
-          <img
-            alt="ecommerce"
-            class="object-cover object-center w-full h-64 rounded-lg lg:h-auto transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 focus:ring focus:outline-none"
-            src="https://images.unsplash.com/photo-1519741196428-6a2175fa2557?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
-          />
-          <div
-            class="flex flex-col items-start mx-auto mt-8 sm:flex-row sm:items-center"
-          >
-            <h1
-              class="flex-grow mb-2 text-2xl font-medium tracking-tighter text-gray-900 title-font"
+        <div class="xl:w-1/3 md:w-1/2 p-4">
+          <div class="border border-gray-200 p-6 rounded-lg">
+            <div
+              class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4"
             >
-              Desain Undangan Tiga .
-            </h1>
-            <span class="inline-flex">
-              <a
-                class="inline-flex items-center justify-center w-10 h-10 text-white rounded-full transition duration-500 ease-in-out transform rounded-lg shadow-xl bg-gradient-to-r from-blue-700 hover:from-blue-600 to-blue-600 hover:to-blue-700 hover:-translate-y-1 hover:scale-110 focus:ring focus:outline-none"
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="w-6 h-6"
+                viewBox="0 0 24 24"
               >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="icon icon-tabler icon-tabler-chevron-right"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="#ffffff"
-                  fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                  <polyline points="9 6 15 12 9 18" />
-                </svg>
-              </a>
-            </span>
+                <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                <circle cx="12" cy="7" r="4"></circle>
+              </svg>
+            </div>
+            <h2 class="text-lg text-gray-900 font-medium title-font mb-2">
+              Neptune
+            </h2>
+            <p class="leading-relaxed text-base">
+              Fingerstache flexitarian street art 8-bit waist co, subway tile
+              poke farm.
+            </p>
+          </div>
+        </div>
+        <div class="xl:w-1/3 md:w-1/2 p-4">
+          <div class="border border-gray-200 p-6 rounded-lg">
+            <div
+              class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="w-6 h-6"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1zM4 22v-7"
+                ></path>
+              </svg>
+            </div>
+            <h2 class="text-lg text-gray-900 font-medium title-font mb-2">
+              Melanchole
+            </h2>
+            <p class="leading-relaxed text-base">
+              Fingerstache flexitarian street art 8-bit waist co, subway tile
+              poke farm.
+            </p>
+          </div>
+        </div>
+        <div class="xl:w-1/3 md:w-1/2 p-4">
+          <div class="border border-gray-200 p-6 rounded-lg">
+            <div
+              class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="w-6 h-6"
+                viewBox="0 0 24 24"
+              >
+                <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+              </svg>
+            </div>
+            <h2 class="text-lg text-gray-900 font-medium title-font mb-2">
+              Bunker
+            </h2>
+            <p class="leading-relaxed text-base">
+              Fingerstache flexitarian street art 8-bit waist co, subway tile
+              poke farm.
+            </p>
+          </div>
+        </div>
+        <div class="xl:w-1/3 md:w-1/2 p-4">
+          <div class="border border-gray-200 p-6 rounded-lg">
+            <div
+              class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4"
+            >
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                class="w-6 h-6"
+                viewBox="0 0 24 24"
+              >
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+            </div>
+            <h2 class="text-lg text-gray-900 font-medium title-font mb-2">
+              Ramona Falls
+            </h2>
+            <p class="leading-relaxed text-base">
+              Fingerstache flexitarian street art 8-bit waist co, subway tile
+              poke farm.
+            </p>
           </div>
         </div>
       </div>

@@ -1,407 +1,458 @@
 <template>
-  <section class="py-20 bg-gray-50" id="harga">
-    <div class="max-w-6xl px-8 mx-auto lg:px-4">
-      <div class="mb-16 text-center">
-        <h2
-          class="max-w-lg mx-auto mb-4 text-5xl font-bold text-gray-700 font-heading"
-        >
-          <span>Paket</span>
-          <span class="relative pl-2 mr-2 text-blue-800">
-            <span class="relative z-10">Undangan</span>
-            <span
-              class="absolute bottom-0 left-0 w-full h-3 transform -skew-x-6 bg-blue-100"
-            >
-            </span>
-          </span>
-        </h2>
-        <p class="max-w-2xl mx-auto text-lg text-gray-500">
-          Pilih paket undangan digital anda.
-        </p>
-      </div>
-      <div class="flex flex-wrap -mx-3">
-        <div class="w-full px-3 mb-6 md:w-1/2 lg:w-1/3">
-          <div class="px-8 pt-12 pb-8 text-center bg-white rounded-lg shadow">
-            <h3 class="mb-4 text-5xl font-bold font-heading">Basic</h3>
-            <span
-              class="flex items-center justify-center text-4xl font-bold text-gray-900 font-heading"
-              >Rp249.999</span
-            >
-            <p class="mt-3 mb-8 text-sm text-gray-400">
-              <!-- ini adalah contoh deskripsi paket di sini nanti di isi desc
-              paketnya. -->
-            </p>
-            <div class="flex flex-col items-center mb-8">
-              <ul class="text-gray-400">
-                <li class="flex mb-3">
-                  <svg
-                    class="w-6 h-6 mr-2 text-green-500"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                    ></path>
-                  </svg>
-                  <span>3 Foto</span>
-                </li>
-                <li class="flex mb-3">
-                  <svg
-                    class="w-6 h-6 mr-2 text-green-500"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                    ></path>
-                  </svg>
-                  <span>1 Video</span>
-                </li>
-                <li class="flex mb-3">
-                  <svg
-                    class="w-6 h-6 mr-2 text-green-500"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                    ></path>
-                  </svg>
-                  <span>Website</span>
-                </li>
-                <li class="flex mb-3">
-                  <svg
-                    class="w-6 h-6 mr-2 text-green-500"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                    ></path>
-                  </svg>
-                  <span>Countdown Time</span>
-                </li>
-                <li class="flex mb-3">
-                  <svg
-                    class="w-6 h-6 mr-2 text-green-500"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                    ></path>
-                  </svg>
-                  <span>Custom Design</span>
-                </li>
-                <li class="flex mb-3">
-                  <svg
-                    class="w-6 h-6 mr-2 text-green-500"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                    ></path>
-                  </svg>
-                  <span>Free Domain</span>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <a
-                class="block px-6 py-5 mb-4 text-base font-semibold leading-none text-center text-white bg-blue-800 rounded-lg sm:mb-0 hover:bg-blue-700"
-                href="#"
-                >Hubungi Kami</a
-              >
-            </div>
-          </div>
-        </div>
-        <div class="w-full px-3 mb-6 md:w-1/2 lg:w-1/3">
-          <div
-            class="px-8 pt-8 pb-8 text-center text-white transform scale-100 rounded-lg shadow-2xl lg:scale-105 bg-blue-800"
+  <div>
+    <section class="text-gray-600 body-font overflow-hidden">
+      <div class="container px-5 py-24 mx-auto">
+        <div class="flex flex-col text-center w-full mb-20">
+          <h1
+            class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900"
           >
-            <h3 class="mb-4 text-5xl font-bold font-heading">Popular</h3>
-            <span
-              class="flex items-center justify-center text-4xl font-bold text-white font-heading"
-              >Rp499.999</span
+            Pricing
+          </h1>
+          <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-500">
+            Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical.
+          </p>
+          <div
+            class="flex mx-auto border-2 border-indigo-500 rounded overflow-hidden mt-6"
+          >
+            <button
+              class="py-1 px-4 bg-indigo-500 text-white focus:outline-none"
             >
-            <p class="mt-4 mb-8 text-sm">
-              <!-- ini adalah contoh deskripsi paket di sini nanti di isi desc
-              paketnya. -->
-            </p>
-            <div class="flex flex-col items-center mb-8">
-              <ul>
-                <li class="flex items-center mb-3">
-                  <svg
-                    class="w-6 h-6 mr-2 text-green-500"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                    ></path>
-                  </svg>
-                  <span>6 foto</span>
-                </li>
-                <li class="flex items-center mb-3">
-                  <svg
-                    class="w-6 h-6 mr-2 text-green-500"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                    ></path>
-                  </svg>
-                  <span>1 Video</span>
-                </li>
-                <li class="flex items-center mb-3">
-                  <svg
-                    class="w-6 h-6 mr-2 text-green-500"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                    ></path>
-                  </svg>
-                  <span>Website</span>
-                </li>
-                <li class="flex items-center mb-3">
-                  <svg
-                    class="w-6 h-6 mr-2 text-green-500"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                    ></path>
-                  </svg>
-                  <span>Custom Design</span>
-                </li>
-                <li class="flex items-center mb-3">
-                  <svg
-                    class="w-6 h-6 mr-2 text-green-500"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                    ></path>
-                  </svg>
-                  <span>Form Ucapan</span>
-                </li>
-                <li class="flex mb-3">
-                  <svg
-                    class="w-6 h-6 mr-2 text-green-500"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                    ></path>
-                  </svg>
-                  <span>Maps</span>
-                </li>
-                <li class="flex items-center mb-3">
-                  <svg
-                    class="w-6 h-6 mr-2 text-green-500"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                    ></path>
-                  </svg>
-                  <span>Backsound</span>
-                </li>
-                <li class="flex items-center mb-3">
-                  <svg
-                    class="w-6 h-6 mr-2 text-green-500"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                    ></path>
-                  </svg>
-                  <span>Free Domain</span>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <a
-                class="block px-6 py-5 mb-4 text-base font-semibold leading-none text-center text-blue-800 rounded-lg bg-purple-50 hover:bg-white sm:mb-0 hover:text-blue-700"
-                href="#"
-                >Hubungi Kami</a
-              >
-            </div>
+              Monthly
+            </button>
+            <button class="py-1 px-4 focus:outline-none">Annually</button>
           </div>
         </div>
-        <div class="w-full px-3 mb-6 lg:w-1/3">
-          <div
-            class="px-8 pt-8 pb-8 text-center bg-yellow-400 rounded-lg shadow"
-          >
-            <h3 class="mb-4 text-5xl font-bold font-heading">Plus</h3>
-            <span
-              class="flex items-center justify-center text-4xl font-bold text-white font-heading"
-              >Segera</span
+        <div class="flex flex-wrap -m-4">
+          <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+            <div
+              class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden"
             >
-            <p class="mt-4 mb-8 text-sm text-white">
-              Paket ini cocok untuk pernikahan skala besar dapat custom fitur
-              dan mendapatkan fitur premium.
-            </p>
-            <div class="flex flex-col items-center mb-8">
-              <ul class="text-white">
-                <li class="flex mb-3">
-                  <svg
-                    class="w-6 h-6 mr-2 text-green-800"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                    ></path>
-                  </svg>
-                  <span>Semua Fitur Basic Dan Popular</span>
-                </li>
-                <li class="flex mb-3">
-                  <svg
-                    class="w-6 h-6 mr-2 text-green-800"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                    ></path>
-                  </svg>
-                  <span>Custom Fitur</span>
-                </li>
-                <li class="flex mb-3">
-                  <svg
-                    class="w-6 h-6 mr-2 text-green-800"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                    ></path>
-                  </svg>
-                  <span>Aplikasi QR Buku Tamu</span>
-                </li>
-                <li class="flex mb-3">
-                  <svg
-                    class="w-6 h-6 mr-2 text-green-800"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                    ></path>
-                  </svg>
-                  <span>Fitur Premium 👑</span>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <a
-                class="block px-6 py-5 mb-4 text-base font-semibold leading-none text-center text-yellow-400 bg-white rounded-lg sm:mb-0 hover:bg-gray-100"
-                href="#"
-                >Hubungi Kami</a
+              <h2 class="text-sm tracking-widest title-font mb-1 font-medium">
+                START
+              </h2>
+              <h1
+                class="text-5xl text-gray-900 pb-4 mb-4 border-b border-gray-200 leading-none"
               >
+                Free
+              </h1>
+              <p class="flex items-center text-gray-600 mb-2">
+                <span
+                  class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+                >
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2.5"
+                    class="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg> </span
+                >Vexillologist pitchfork
+              </p>
+              <p class="flex items-center text-gray-600 mb-2">
+                <span
+                  class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+                >
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2.5"
+                    class="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg> </span
+                >Tumeric plaid portland
+              </p>
+              <p class="flex items-center text-gray-600 mb-6">
+                <span
+                  class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+                >
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2.5"
+                    class="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg> </span
+                >Mixtape chillwave tumeric
+              </p>
+              <button
+                class="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded"
+              >
+                Button
+                <svg
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  class="w-4 h-4 ml-auto"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </button>
+              <p class="text-xs text-gray-500 mt-3">
+                Literally you probably haven't heard of them jean shorts.
+              </p>
+            </div>
+          </div>
+          <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+            <div
+              class="h-full p-6 rounded-lg border-2 border-indigo-500 flex flex-col relative overflow-hidden"
+            >
+              <span
+                class="bg-indigo-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl"
+                >POPULAR</span
+              >
+              <h2 class="text-sm tracking-widest title-font mb-1 font-medium">
+                PRO
+              </h2>
+              <h1
+                class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200"
+              >
+                <span>$38</span>
+                <span class="text-lg ml-1 font-normal text-gray-500">/mo</span>
+              </h1>
+              <p class="flex items-center text-gray-600 mb-2">
+                <span
+                  class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+                >
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2.5"
+                    class="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg> </span
+                >Vexillologist pitchfork
+              </p>
+              <p class="flex items-center text-gray-600 mb-2">
+                <span
+                  class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+                >
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2.5"
+                    class="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg> </span
+                >Tumeric plaid portland
+              </p>
+              <p class="flex items-center text-gray-600 mb-2">
+                <span
+                  class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+                >
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2.5"
+                    class="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg> </span
+                >Hexagon neutra unicorn
+              </p>
+              <p class="flex items-center text-gray-600 mb-6">
+                <span
+                  class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+                >
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2.5"
+                    class="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg> </span
+                >Mixtape chillwave tumeric
+              </p>
+              <button
+                class="flex items-center mt-auto text-white bg-indigo-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-indigo-600 rounded"
+              >
+                Button
+                <svg
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  class="w-4 h-4 ml-auto"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </button>
+              <p class="text-xs text-gray-500 mt-3">
+                Literally you probably haven't heard of them jean shorts.
+              </p>
+            </div>
+          </div>
+          <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+            <div
+              class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden"
+            >
+              <h2 class="text-sm tracking-widest title-font mb-1 font-medium">
+                BUSINESS
+              </h2>
+              <h1
+                class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200"
+              >
+                <span>$56</span>
+                <span class="text-lg ml-1 font-normal text-gray-500">/mo</span>
+              </h1>
+              <p class="flex items-center text-gray-600 mb-2">
+                <span
+                  class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+                >
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2.5"
+                    class="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg> </span
+                >Vexillologist pitchfork
+              </p>
+              <p class="flex items-center text-gray-600 mb-2">
+                <span
+                  class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+                >
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2.5"
+                    class="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg> </span
+                >Tumeric plaid portland
+              </p>
+              <p class="flex items-center text-gray-600 mb-2">
+                <span
+                  class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+                >
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2.5"
+                    class="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg> </span
+                >Hexagon neutra unicorn
+              </p>
+              <p class="flex items-center text-gray-600 mb-2">
+                <span
+                  class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+                >
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2.5"
+                    class="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg> </span
+                >Vexillologist pitchfork
+              </p>
+              <p class="flex items-center text-gray-600 mb-6">
+                <span
+                  class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+                >
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2.5"
+                    class="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg> </span
+                >Mixtape chillwave tumeric
+              </p>
+              <button
+                class="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded"
+              >
+                Button
+                <svg
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  class="w-4 h-4 ml-auto"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </button>
+              <p class="text-xs text-gray-500 mt-3">
+                Literally you probably haven't heard of them jean shorts.
+              </p>
+            </div>
+          </div>
+          <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+            <div
+              class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden"
+            >
+              <h2 class="text-sm tracking-widest title-font mb-1 font-medium">
+                SPECIAL
+              </h2>
+              <h1
+                class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200"
+              >
+                <span>$72</span>
+                <span class="text-lg ml-1 font-normal text-gray-500">/mo</span>
+              </h1>
+              <p class="flex items-center text-gray-600 mb-2">
+                <span
+                  class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+                >
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2.5"
+                    class="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg> </span
+                >Vexillologist pitchfork
+              </p>
+              <p class="flex items-center text-gray-600 mb-2">
+                <span
+                  class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+                >
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2.5"
+                    class="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg> </span
+                >Tumeric plaid portland
+              </p>
+              <p class="flex items-center text-gray-600 mb-2">
+                <span
+                  class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+                >
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2.5"
+                    class="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg> </span
+                >Hexagon neutra unicorn
+              </p>
+              <p class="flex items-center text-gray-600 mb-2">
+                <span
+                  class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+                >
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2.5"
+                    class="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg> </span
+                >Vexillologist pitchfork
+              </p>
+              <p class="flex items-center text-gray-600 mb-6">
+                <span
+                  class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"
+                >
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2.5"
+                    class="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg> </span
+                >Mixtape chillwave tumeric
+              </p>
+              <button
+                class="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded"
+              >
+                Button
+                <svg
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  class="w-4 h-4 ml-auto"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </button>
+              <p class="text-xs text-gray-500 mt-3">
+                Literally you probably haven't heard of them jean shorts.
+              </p>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+  </div>
 </template>
